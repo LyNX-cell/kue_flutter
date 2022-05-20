@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1053276626032",
+    "project_id": "mini-project-tokokue",
+    "storage_bucket": "mini-project-tokokue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053276626032:android:d545b6e9b859176286a8b5",
+        "android_client_info": {
+          "package_name": "com.example.kue_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053276626032-5qk5hmn34or4beaik70pdab18gnh6lpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCQ4OUUgsG2rxtkiA2g_VdsUcSclmHo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053276626032-5qk5hmn34or4beaik70pdab18gnh6lpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
