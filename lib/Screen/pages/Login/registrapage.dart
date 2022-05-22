@@ -166,18 +166,17 @@ class _RegistrapageState extends State<Registrapage> {
                   name: 'SignUp',
                   press: () {
                     if (_formKey.currentState!.validate()) {
-                      return;
+                      FirebaseAuth.instance
+                          .createUserWithEmailAndPassword(
+                              email: _emailController.text,
+                              password: _passwordController.text)
+                          .then(
+                        (value) {
+                          Navigator.pushReplacementNamed(
+                              context, LogiPage.routeName);
+                        },
+                      );
                     }
-                    FirebaseAuth.instance
-                        .createUserWithEmailAndPassword(
-                            email: _emailController.text,
-                            password: _passwordController.text)
-                        .then(
-                      (value) {
-                        Navigator.pushReplacementNamed(
-                            context, LogiPage.routeName);
-                      },
-                    );
                   },
                   color: Colors.white,
                 ),
